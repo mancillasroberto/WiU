@@ -58,6 +58,13 @@ header{
 }
 #top a{
 	float:right;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:500;
+	color:#fff;
+	background: transparent url("../images/icon2.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;
 }
 input[type="text"]{
 	height: 30px;
@@ -107,8 +114,10 @@ th{
 	padding: 1em 1em .5em;
 	font-weight: bold;
 	font-size: 120%;
-	color: #545257;  /*changes color of table hd text*/
-	background: #bbbcc0; /*changes color of table hd background*/
+	/*color: #545257;  changes color of table hd text*/
+	/*background: #bbbcc0; changes color of table hd background*/
+	background:#007fb9;
+	color:#fff;
 }
 th:first-child{
 	/*border-right: 1px solid #6a7680;*/
@@ -140,7 +149,8 @@ td:first-child{
 	font-size:60px;
 	color:#ffffff;
 }
-.slogan p{
+.slogan a{
+	display:block;
 	color:#fff;
 	border:1px solid #fff;
 	padding:10px 15px 10px 15px;
