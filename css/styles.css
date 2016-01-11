@@ -131,8 +131,8 @@ td:first-child{
 }
 /*-------------------------------------------  top section-------------------------------------------------------*/
 .feature{
-	background:url("../images/Bahamas2.jpg");
-	background-size:cover;
+	background:url("../images/bahamas3.png");
+	/*background-size:cover;*/
 	background-repeat:no-repeat;
 	background-position:center 0;
 	height:500px;
